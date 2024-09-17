@@ -1,0 +1,20 @@
+.container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+   
+}
+
+.meio {
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+button {
+    width: 150px;
+    margin: 5px;
+    height: 40px;
+    border-radius: 1000px;
+}
