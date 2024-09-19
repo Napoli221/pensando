@@ -30,5 +30,5 @@ function calculadora() {
     }
 
 
-    document.getElementById("resultado").innerText = `O lucro ao vender a plantação: ${lucro.toFixed(2)}`;
+    document.getElementById("resultado").innerText = `O lucro ao vender a plantação: ${lucro}`;
 }
