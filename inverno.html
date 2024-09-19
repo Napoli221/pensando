@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\josef\OneDrive\Desktop\pensando\pensando\style\inverno.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="meio">
+    <div class="container">
+        <select name="teste" id="planta" onchange="mudaimagem(this)">
+            <option value="">Selecione...</option>
+            <option class="in1" value="in1">Cotton</option>
+            <option class="in2" value="in2">Snowdrop</option>
+            <option class="in3" value="in3">Tea leat</option>
+        </select>
+    </div>
+</div>
+
+      <div class="meio">
+    <img id="imagem" src="img/interrogaçao.jpg" alt="">
+</div>
+
+<div class="meio">
+<div class="container">
+    <label for="">Quantidade</label>
+    <input type="text" name="quantidade" id="quantidade">
+    <div>
+        <button onclick="calculadora()">Calcular</button>
+        <h1 id="resultado"></h1>
+
+    </div>
+</div>
+</div>
+
+
+    <script src="C:\Users\josef\OneDrive\Desktop\pensando\pensando\script\inverno.js"></script>
 </body>
 </html>

@@ -1,0 +1,37 @@
+.container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+   
+}
+
+.meio {
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+button {
+    width: 150px;
+    margin: 5px;
+    height: 55px;
+    border-radius: 1000px;
+    background-color: orange;
+}
+
+body {
+    background-image: url('../img/Coral-Island-All-Dateable-Romance-Characters-1600x800.png');
+    background-size: 100% 300%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+
+button:hover {
+    background-color: aqua;
+    transition: 0.35s;
+    cursor: pointer;
+}
+   
