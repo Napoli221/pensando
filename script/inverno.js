@@ -30,5 +30,5 @@ function calculadora() {
     }
 
 
-    document.getElementById("resultado").innerText = `O lucro ao vender a plantação: ${lucro}`;
+    document.getElementById("resultado").innerText = `O lucro ao vender a colheita é de: ${lucro} ouros!`;
 }

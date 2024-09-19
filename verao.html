@@ -3,21 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="C:\Users\GIUSEPPE2444\Desktop\pensando\pensando\style\verao.css">
+    <title>Verão</title>
 </head>
 <body>
-    <select name="verao" id="">
-        <option value="Gardenia">Gardenia</option>
-        <option value="Iris">Iris</option>
-        <option value="Lily">Lily</option>
-        <option value="Melon">Melon</option>
-        <option value="Pineapple">Pineapple</option>
-        <option value="Radish">Radish</option>
-        <option value="Red Cabbage">Red Cabbage</option>
-        <option value="Rose">Rose</option>
-        <option value="Starfruit">Starfruit</option>
-        <option value="Sunflower">Sunflower</option>
-        <option value="Wheat">Wheat</option>
+    <div class="meio">
+    <select name="teste" id="planta" onchange="mudaimagem(this)">
+        <option value="">Selecione...</option>
+        <option value="ve1">Gardenia</option>
+        <option value="ve2">Iris</option>
+        <option value="ve3">Lily</option>
+        <option value="ve4">Melon</option>
+        <option value="ve5">Pineapple</option>
+        <option value="ve6">Radish</option>
+        <option value="ve7">Red Cabbage</option>
+        <option value="ve8">Rose</option>
+        <option value="ve9">Starfruit</option>
+        <option value="ve10">Sunflower</option>
+        <option value="ve11">Wheat</option>
     </select>
+</div>
+
+    <div class="tela">
+    <div class="meio">
+        <img id="imagem" src="./img/interrogaçao.jpg" alt="">
+    </div>
+    </div>
+    
+
+    <div class="meio">
+    <div class="container">
+        <label for="">Quantidade</label>
+        <input type="text" name="quantidade" id="quantidade">
+        <div>
+            <button onclick="calculadora()">Calcular</button>
+            
+    
+        </div>
+    </div>
+    </div>
+    
+    <div class="meio">
+        <div class="container"><h1 id="resultado"></h1></div>
+    </div>
+
+<script src="C:\Users\GIUSEPPE2444\Desktop\pensando\pensando\script\verao.js"></script>
+
+    
 </body>
 </html>
